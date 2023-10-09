@@ -12,19 +12,38 @@ header {
     text-align: center;
 }
 
-.h1 {
+h1 {
     font-size: 36px;
+    margin: 0;
 }
 
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color:violet;
+    background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 0;
 }
 
 p {
     font-size: 18px;
     line-height: 1.6;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.section:last-child {
+    margin-bottom: 0;
 }
